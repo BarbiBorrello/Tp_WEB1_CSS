@@ -5,9 +5,41 @@
     <meta charset="UTF-8">
 
     <title>Ejercicio 5 B</title>
+
+    <style>
+        * {
+            background-color: yellow
+        }
+
+        #Parrafo2 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: left;
+        }
+
+        .Body {
+
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        body {
+
+            background-color: aqua;
+        }
+
+        p::first-line { color: grey; }
+
+        Parrafo3:hover{
+
+            font-size: xx-large;
+        }
+
+
+
+    </style>
 </head>
 
-<body>
+<body class="Body">
 
     <p>Si un div es referenciado por 3 selectores: selector de elemento, clase e identificador,
         ¿Cuál tiene prioridad? Verifique la respuesta realizando algún código de prueba.
@@ -26,17 +58,24 @@
         <img src="3img/Ejercicio5B.png" alt="">
     </div>
 
+    <!-- ejemplo en codigo-->
+
     <div>
 
         <h3> Puntuación de cada tipo de selector :</h3>
 
-        <p>Antes de comenzar, debes conocer primero cuales son los tipos de selectores en CSS, estos se dividen en varias categorías. Un ejemplo son las pseudoclases que vas a poder encontrar muchas de ellas, sin embargo, te recomiendo que solo aprendas las mas importantes.</p>
+        <p style="color: blue; background-color: rgb(207, 42, 42);">Antes de comenzar, debes conocer primero cuales son
+            los tipos de selectores en CSS, estos se dividen en varias categorías. Un ejemplo son las pseudoclases que
+            vas a poder encontrar muchas de ellas, sin embargo, te recomiendo que solo aprendas las mas importantes.</p>
 
-        <p>La cantidad de especificidad de un selector se mide usando cuatro valores diferentes separados por coma que tienen diferente peso y pueden describirse como millares, centenas, decenas y unidades (cuatro dígitos individuales dispuestos en cuatro columnas)</p>
+        <p id="Parrafo2">La cantidad de especificidad de un selector se mide usando cuatro valores diferentes separados
+            por coma que tienen diferente peso y pueden describirse como millares, centenas, decenas y unidades (cuatro
+            dígitos individuales dispuestos en cuatro columnas)</p>
 
-        <p> La especificidad en CSS es un grupo de reglas aplicadas a los selectores CSS para determinar qué estilo se aplica a un elemento. Cuanto más específico sea un selector, mayor será su valor en puntos y más probable será que esté presente en el estilo del elemento </p>
-
-
+        <p class="Parrafo3"> La especificidad en CSS es un grupo de reglas aplicadas a los selectores CSS para determinar qué estilo se
+            aplica a un elemento. 
+            Cuanto más específico sea un selector, mayor será su valor en puntos y más probable
+            será que esté presente en el estilo del elemento </p>
 
     </div>
 
