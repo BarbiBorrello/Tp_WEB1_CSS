@@ -5,52 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio 7B</title>
 
     <style>
-        .contenedor {
-            /* estilo del contenedor*/
-            width: 500px;
-            height: 200px;
-            background: #fff;
-            padding: 10px;
-            border: 10px solid black;
-            margin: 20px;
-            /*--------------------------------------------------*/
+.contenedor{
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 20px ;
 
-            display: flex;
-            flex-direction: row; /* row /// IMPORTANTE!!! las pone una DEBAJO DE LA OTRA!*/
-            justify-content: flex-start;/* para menu espacio alrededor o entre */
-            align-items: flex-start;
-            /*align-items: stretch ; /* height del elemento tiene que estar seteado* Toma todo el atlo del contenedor/
-        }
+}
 
-
-        .elemento {
-            /* estilo del elemento*/
-            color: #fff;
-            margin: 5px;
-            width: 50px;
-            /*height: 50px;*/ /* seteados para align-items: stretch  */
-            background: #E67E22;
-            text-align: center;
-            /*--------------------------------------------------*/
-
-        }
 
     </style>
+
 </head>
 
 <body>
-    <div class="contenedor">
+<div class="contenedor">
 
-        <div class="elemento elemento1"> foto 1</div>
-        <div class="elemento elemento2"> texto 1</div>
-        <div class="elemento elemento3"> texto 2</div>
-        <div class="elemento elemento4"> texto 3</div>
-        <div class="elemento elemento5"> texto 4</div>
+ <!-- (div.parte)*5-->
 
-    </div>
+<div class="parte">1</div>
+<div class="parte">2</div>
+<div class="parte">3</div>
+<div class="parte">4</div>
+<div class="parte">5</div>
+
+
+
+</div>
 </body>
 
 </html>
