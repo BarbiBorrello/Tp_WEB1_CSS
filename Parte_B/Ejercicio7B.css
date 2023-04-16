@@ -1,0 +1,39 @@
+.contenedor {
+    max-width: 500px;
+    margin: 20px;
+    outline: 3px solid white;
+    /* borde del contenedor*/
+    background-color: white;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    /* recomendable comenzar con columnas*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.parte {
+    background-color: white;
+/*  border: 1px solid black;*/
+    font-size: x-small;
+
+}
+
+.parte-1 {
+
+    grid-row: 1/5;
+    /* FOTO:  AGRUPAR FILAS:  comienza en la linea 1 y termina en la 5  -------*/
+
+}
+
+.parte-3{
+
+    padding-top: 6px ;
+    
+}
+
+.parte-5{
+
+    padding-top: 15px ;
+}
+ 
